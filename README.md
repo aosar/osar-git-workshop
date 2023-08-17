@@ -11,6 +11,12 @@ Recommended software. Major versions are probably sufficient.
 | NodeJS | 16.15.x |
 | npm | 8.12.x |
 
+## Installing NodeJS on OSX with HomeBrew
+Install NodeJS 16
+```bash
+brew install node@16
+```
+
 ## Installation
 1. Clone the repository
 2. Run `npm install` in the root folder
