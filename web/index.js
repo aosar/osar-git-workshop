@@ -1,16 +1,16 @@
-const WebPage = `
+const WebPage = ({ title, subtitle }) => `
   <head>
     <title>
-      Sample Web Page
+      ${title}
     </title>
   </head>
   <body style='font-family: Arial, Helvetica, sans-serif;'>
     <div style="text-align: center;">
       <h1>
-        Sample Web Page
+        ${title}
       </h1>
       <h4>
-        This is a sample web page
+        ${subtitle}
       </h4>
     </div>
   </body>
@@ -20,6 +20,9 @@ const WebPage = `
 const express = require('express');
 const app = express();
 app.get('/', (req, res) => res.send(
-  WebPage
+  WebPage({
+    title: 'Sample Web Page',
+    subtitle: 'This is a sample web page'
+  })
 ));
 app.listen(3000, () => console.log('Listening on port 3000...'));
