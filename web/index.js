@@ -12,6 +12,19 @@ const WebPage = `
       <h4>
         This is a sample web page
       </h4>
+      <h4>
+        <em>Animal List</em>
+      </h4>
+      <ul>
+        <li>
+          Cat
+        </li>
+        <li>
+          Dog
+        </li>
+        <li>
+          Bunny
+        </li>
     </div>
   </body>
 `;
