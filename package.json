@@ -1,0 +1,18 @@
+{
+  "name": "osar-git-workshop",
+  "version": "1.0.0",
+  "description": "Project for git workshop",
+  "scripts": {
+    "start": "nodemon web/index.js",
+    "nodemon": "nodemon web/index.js"
+  },
+  "author": "Arianna Osar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.21"
+  }
+}
