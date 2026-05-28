@@ -7,7 +7,7 @@ Recommended software. Major versions are probably sufficient.
 
 | Program | Version |
 | -- | -- |
-| Windows | 10 |
+| Windows | 11 |
 | NodeJS | 16.15.x |
 | npm | 8.12.x |
 
@@ -15,3 +15,5 @@ Recommended software. Major versions are probably sufficient.
 1. Clone the repository
 2. Run `npm install` in the root folder
 3. Run `npm start` to start the web server
+
+I added this to the readme.
